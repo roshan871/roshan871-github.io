@@ -9,6 +9,44 @@ html {
   margin: 0;
   padding: 0;
 }
+input,
+textarea {
+  width: 400px;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 8px;
+  background: none;
+  border: none;
+  border: 2px solid silver;
+  box-shadow: 3px 3px 8px silver;
+  color: silver;
+  margin-top: 10px;
+}
+
+textarea {
+  border: 2px solid silver;
+}
+
+.action-button {
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  background-color: darkgoldenrod;
+}
+
+.action-button:hover {
+  background-color: goldenrod;
+  box-shadow: 4px 4px 10px rgba(184, 134, 11, 0.5);
+}
+
+.action-button:active {
+  background-color: gold;
+  box-shadow: 4px 4px 10px rgba(241, 186, 47, 0.75);
+}
 
 /* Header */
 header {
@@ -124,9 +162,21 @@ header {
   background-color: black;
   color: silver;
 }
-
 .contact-main-area {
   text-align: center;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-buttons {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+}
+.form-buttons .action-button {
+  margin-top: 15px;
 }
 /* Footer */
 .footer {
