@@ -18,19 +18,34 @@ header {
   height: 75px;
 }
 
+.logo {
+  flex-basis: 50px;
+  min-width: 240px;
+  margin-left: 25px;
+}
+
 .header-navigation {
   flex-basis: 70%;
   display: flex;
   justify-content: flex-end;
 }
-.header-nav-link {
+
+.header-navigation-link,
+.header-navigation-link:visited,
+.header-navigation-link:active,
+.header-navigation-link:focus {
   margin-right: 25px;
-  padding: 1px;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 /* Main Banner */
 .main-banner {
-  background-image: url(./images/main-banner.png);
+  display: flex;
+  align-items: center;
+}
+.main-banner-img {
   background-size: cover;
   background-position: center center;
   width: 100%;
@@ -100,6 +115,55 @@ header {
   height: 320px;
 }
 
-footer {
+/* Contact form */
+.contact-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: black;
+  color: silver;
+}
+
+.contact-main-area {
+  text-align: center;
+}
+/* Footer */
+.footer {
   background-color: rgb(247, 214, 214);
+  color: var(--secondary-color);
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav-link,
+.footer-nav-link:visited,
+.footer-nav-link:active,
+.footer-nav-link:focus {
+  margin: 0 12px;
+  color: #aaaaaa;
+}
+
+.d-none {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .d-md-block {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .d-lg-block {
+    display: block;
+  }
 }
