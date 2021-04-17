@@ -34,7 +34,6 @@ body {
 }
 
 .header-navigation {
-  border: 1 px solid black;
   flex-basis: 70%;
   display: flex;
   justify-content: flex-end;
@@ -58,8 +57,10 @@ body {
 }
 
 .main-banner h2 {
+  font-family: "Dancing Script", cursive;
+  font-size: 40px;
   width: 20%;
-  margin-left: 15px;
+  margin-left: 300px;
   margin-top: 85px;
   color: aliceblue;
 }
@@ -275,19 +276,214 @@ body {
   margin: 0 12px;
   color: #aaaaaa;
 }
+@media screen and (max-width: 480px) {
+  header {
+    width: 100%;
+  }
+  .logo {
+    flex-basis: 150px;
+    min-width: 20px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 0;
+  }
 
-.d-none {
-  display: none;
-}
-
-@media screen and (min-width: 768px) {
-  .d-md-block {
-    display: block;
+  .header-navigation {
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
   }
 }
 
-@media screen and (min-width: 992px) {
-  .d-lg-block {
-    display: block;
-  }
+.main-banner {
+  width: 100%;
+  height: 300px;
+}
+
+.main-banner h2 {
+  font-size: 30px;
+  width: 20%;
+  margin-left: 65px;
+  margin-top: 45px;
+}
+
+.main-banner-button {
+  margin-top: 120px;
+  margin-right: 65px;
+  width: 85px;
+  height: 40px;
+  background: goldenrod;
+  border-radius: 15px;
+}
+
+.local-favourite-section {
+  padding-right: 25px;
+  height: 550px;
+  background: cornsilk;
+}
+
+.local-favourite-title {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+.local-favourite-container {
+  margin-left: 15px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.local-favourite {
+  margin-left: 50px;
+  margin-right: 5px;
+  margin-bottom: 75px;
+  width: 150px;
+  height: 90px;
+  display: flex;
+  flex-direction: row wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.local-favourite-img {
+  margin-top: 8px;
+  margin-bottom: 0;
+  width: 150px;
+  height: 90px;
+}
+.local-favourite-text {
+  margin-top: 105px;
+  margin-left: -120px;
+}
+
+.about-us-section {
+  margin-top: 15px;
+  width: 100%;
+  padding: 25px;
+  height: 580px;
+  background: lavenderblush;
+}
+
+.about-us-title {
+  color: goldenrod;
+  margin-left: -5px;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+.about-us-container {
+  background: rgb(245, 219, 200);
+  margin-left: 0;
+  width: 100%;
+  height: 450px;
+}
+.about-us {
+  height: 450px;
+  margin-left: 10px;
+}
+
+.about-us-img {
+  width: 60%;
+  height: 80px;
+  margin-bottom: 5px;
+}
+.about-us-heading {
+  margin-bottom: 5px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.about-us-link {
+  margin-top: 1px;
+  color: red;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.product-section {
+  margin-top: 0;
+  width: 100%;
+  height: 450px;
+  background: rgb(245, 219, 200);
+}
+
+.product-container {
+  background: rgb(204, 241, 241);
+}
+
+.product {
+  margin-left: 10px;
+  height: 400px;
+}
+.product-img {
+  margin-top: 2px;
+  width: 100%;
+  height: 400px;
+}
+.product-heading {
+  margin-left: 14px;
+  margin-top: 85px;
+  font-size: 25px;
+}
+
+.product-p {
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.product-button {
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 12px;
+  font-size: 12px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  background-color: darkgoldenrod;
+}
+.product-section1 {
+  margin-top: 0;
+  width: 100%;
+  height: 450px;
+  background: rgb(245, 219, 200);
+}
+
+.product-container1 {
+  background: rgb(204, 241, 241);
+}
+
+.product1 {
+  margin-left: 10px;
+  height: 400px;
+}
+.product-img1 {
+  margin-top: 2px;
+  width: 100%;
+  height: 400px;
+}
+.product-heading1 {
+  margin-left: 14px;
+  margin-top: 85px;
+  font-size: 25px;
+}
+
+.product-p1 {
+  margin-top: 7px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.product-button1 {
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 12px;
+  font-size: 12px;
+  border-radius: 15px;
+}
+
 }
