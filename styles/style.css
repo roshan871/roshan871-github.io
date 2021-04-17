@@ -1,4 +1,5 @@
 /* Paul Irish reset */
+
 html {
   font-size: 16px;
   box-sizing: border-box;
@@ -12,12 +13,74 @@ html {
   margin: 0;
   padding: 0;
 }
+label {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 10px;
+  text-align: left;
+}
 
+/* Components */
+input,
+textarea {
+  width: 400px;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 8px;
+  background: none;
+  border: none;
+  border: 2px solid silver;
+  box-shadow: 3px 3px 8px silver;
+  color: silver;
+  margin-top: 10px;
+}
+
+textarea {
+  border: 2px solid silver;
+}
+.action-button {
+  margin-left: 5px;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  background-color: darkgoldenrod;
+}
+
+.action-button:hover {
+  background-color: goldenrod;
+  box-shadow: 4px 4px 10px rgba(184, 134, 11, 0.5);
+}
+
+.action-button:active {
+  background-color: gold;
+  box-shadow: 4px 4px 10px rgba(241, 186, 47, 0.75);
+}
+
+/* Header area */
+.header {
+  background: var(--secondary-background);
+  color: goldenrod;
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+
+.logo {
+  flex-basis: 350px;
+  min-width: 240px;
+  margin-left: 45px;
+}
 body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: rgb(100, 100, 100);
 }
+
 .header {
   background: brown;
   height: 75px;
@@ -25,6 +88,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .logo {
   flex-basis: 350px;
   min-width: 240px;
@@ -110,10 +174,12 @@ body {
   text-align: center;
   justify-content: space-between;
 }
+
 .local-favourite-img {
   margin-top: 8px;
   margin-bottom: 0;
 }
+
 .local-favourite-text {
   margin-top: 250px;
 }
@@ -158,10 +224,12 @@ body {
   height: 120px;
   margin-bottom: 5px;
 }
+
 .about-us-heading {
   margin-bottom: 5px;
   margin-left: 45px;
 }
+
 .about-us-link {
   margin-top: 5px;
   color: red;
@@ -182,11 +250,13 @@ body {
 .product {
   margin-left: 30px;
 }
+
 .product-img {
   margin-top: 20px;
   width: 80%;
   height: 400px;
 }
+
 .product-heading {
   margin-left: 10px;
   margin-top: 180px;
@@ -225,11 +295,13 @@ body {
 .product1 {
   margin-left: 30px;
 }
+
 .product-img1 {
   margin-top: 20px;
   width: 80%;
   height: 400px;
 }
+
 .product-heading1 {
   margin-left: 10px;
   margin-top: 180px;
@@ -255,6 +327,7 @@ body {
 }
 
 /* Footer */
+
 .footer {
   background: brown;
   height: 125px;
@@ -277,6 +350,37 @@ body {
   color: #aaaaaa;
 }
 
+/* Contact form */
+
+.contact-body {
+  min-height: 105vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgb(58, 54, 55);
+  color: silver;
+}
+.contact-main-area {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.form-buttons {
+  width: 400px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form-buttons .action-button {
+  margin-top: 15px;
+}
+
 @media screen and (max-width: 512px) {
   header {
     width: 100%;
@@ -288,25 +392,21 @@ body {
     margin-left: 5px;
     margin-top: 0;
   }
-
   .header-navigation {
     width: 15%;
     display: flex;
     justify-content: space-between;
   }
-
   .main-banner {
     width: 100%;
     height: 300px;
   }
-
   .main-banner h2 {
     font-size: 30px;
     width: 20%;
     margin-left: 65px;
     margin-top: 45px;
   }
-
   .main-banner-button {
     margin-top: 120px;
     margin-right: 65px;
@@ -315,18 +415,15 @@ body {
     background: goldenrod;
     border-radius: 15px;
   }
-
   .local-favourite-section {
     padding-right: 25px;
     height: 550px;
     background: rgb(231, 224, 196);
   }
-
   .local-favourite-title {
     margin-bottom: 1.5rem;
     font-size: 20px;
   }
-
   .local-favourite-container {
     margin-left: 15px;
     height: 450px;
@@ -335,7 +432,6 @@ body {
     flex-wrap: wrap;
     justify-content: flex-start;
   }
-
   .local-favourite {
     margin-left: 50px;
     margin-right: 5px;
@@ -357,7 +453,6 @@ body {
     margin-top: 105px;
     margin-left: -120px;
   }
-
   .about-us-section {
     margin-top: 15px;
     width: 100%;
@@ -365,14 +460,12 @@ body {
     height: 580px;
     background: lavenderblush;
   }
-
   .about-us-title {
     color: goldenrod;
     margin-left: -5px;
     margin-bottom: 1.5rem;
     font-size: 20px;
   }
-
   .about-us-container {
     background: rgb(245, 219, 200);
     margin-left: 0;
@@ -383,7 +476,6 @@ body {
     height: 450px;
     margin-left: 10px;
   }
-
   .about-us-img {
     width: 60%;
     height: 80px;
@@ -400,18 +492,15 @@ body {
     margin-left: 15px;
     font-size: 15px;
   }
-
   .product-section {
     margin-top: 0;
     width: 100%;
     height: 450px;
     background: rgb(245, 219, 200);
   }
-
   .product-container {
     background: rgb(204, 241, 241);
   }
-
   .product {
     margin-left: 10px;
     height: 400px;
@@ -426,13 +515,11 @@ body {
     margin-top: 85px;
     font-size: 25px;
   }
-
   .product-p {
     margin-top: 7px;
     margin-left: 20px;
     margin-right: 5px;
   }
-
   .product-button {
     margin-top: 20px;
     margin-left: 30px;
@@ -452,11 +539,9 @@ body {
     height: 450px;
     background: rgb(245, 219, 200);
   }
-
   .product-container1 {
     background: rgb(204, 241, 241);
   }
-
   .product1 {
     margin-left: 10px;
     height: 400px;
@@ -471,13 +556,11 @@ body {
     margin-top: 85px;
     font-size: 25px;
   }
-
   .product-p1 {
     margin-top: 7px;
     margin-left: 20px;
     margin-right: 5px;
   }
-
   .product-button1 {
     margin-top: 20px;
     margin-left: 30px;
