@@ -52,19 +52,18 @@ textarea {
   background-color: darkgoldenrod;
 }
 
-.action-button:hover {
+.main-banner-button:hover {
   background-color: goldenrod;
-  box-shadow: 4px 4px 10px rgba(184, 134, 11, 0.5);
+  box-shadow: 4px 4px 4px rgba(192, 156, 63, 0.5);
 }
 
-.action-button:active {
+.main-banner-button:active {
   background-color: gold;
-  box-shadow: 4px 4px 10px rgba(241, 186, 47, 0.75);
+  box-shadow: 4px 4px 4px rgba(241, 186, 47, 0.85);
 }
 
 /* Header area */
 .header {
-  background: var(--secondary-background);
   color: goldenrod;
   display: flex;
   align-items: center;
