@@ -40,8 +40,9 @@ textarea {
 textarea {
   border: 2px solid silver;
 }
-.action-button {
+.main-banner-button {
   margin-left: 5px;
+  margin-top: 10px;
   padding: 12px;
   font-size: 18px;
   border: none;
@@ -50,6 +51,7 @@ textarea {
   font-variant: small-caps;
   letter-spacing: 2px;
   background-color: darkgoldenrod;
+  text-decoration: none;
 }
 
 .main-banner-button:hover {
@@ -62,30 +64,20 @@ textarea {
   box-shadow: 4px 4px 4px rgba(241, 186, 47, 0.85);
 }
 
-/* Header area */
+/*********************Header section *********************/
+
 .header {
   color: goldenrod;
   display: flex;
   align-items: center;
   height: 75px;
+  background: brown;
 }
 
 .logo {
   flex-basis: 350px;
   min-width: 240px;
   margin-left: 45px;
-}
-body {
-  margin: 0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.header {
-  background: brown;
-  height: 75px;
-  align-items: center;
-  display: flex;
-  align-items: center;
 }
 
 .logo {
@@ -109,6 +101,18 @@ body {
   color: aliceblue;
 }
 
+.header-navigation-link,
+.header-navigation-link:active,
+.header-navigation-link:visited,
+.header-navigation-link:focus {
+  margin-right: 25px;
+  font-size: 18px;
+  color: rgb(227, 233, 229);
+  text-decoration: none;
+}
+
+/*********************Main Banner section *********************/
+
 .main-banner {
   width: 100%;
   height: 400px;
@@ -131,10 +135,18 @@ body {
 .main-banner-button {
   margin-top: 90px;
   margin-right: 95px;
+  padding: 12px;
+  font-size: 18px;
   width: 105px;
   height: 50px;
   background: goldenrod;
   border-radius: 15px;
+  text-decoration: none;
+  border: none;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-variant: small-caps;
+  letter-spacing: 2px;
 }
 
 /*********************Local favourite section *********************/
@@ -272,12 +284,13 @@ body {
   padding: 12px;
   font-size: 18px;
   border-radius: 15px;
+  text-decoration: none;
   border: none;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   font-variant: small-caps;
   letter-spacing: 2px;
-  background-color: darkgoldenrod;
+  background-color: goldenrod;
 }
 
 .product-section1 {
@@ -384,7 +397,7 @@ body {
   header {
     width: 100%;
   }
-  .logo {
+  #logo {
     flex-basis: 150px;
     min-width: 20px;
     font-size: 20px;
