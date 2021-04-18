@@ -20,6 +20,7 @@ label {
   line-height: 24px;
   margin: 10px;
   text-align: left;
+  color: aliceblue;
 }
 
 /* Components */
@@ -33,7 +34,7 @@ textarea {
   border: none;
   border: 2px solid silver;
   box-shadow: 3px 3px 8px silver;
-  color: silver;
+  color: aliceblue;
   margin-top: 10px;
 }
 
@@ -70,7 +71,7 @@ textarea {
   color: goldenrod;
   display: flex;
   align-items: center;
-  height: 75px;
+  height: 85px;
   background: brown;
   border: 3px solid rgb(188, 188, 218, 0.85);
   border-radius: 7px;
@@ -85,7 +86,7 @@ textarea {
 }
 
 .header-navigation {
-  flex-basis: 100%;
+  flex-basis: 90%;
   display: flex;
   justify-content: flex-end;
 }
@@ -98,10 +99,9 @@ textarea {
 }
 
 .header-navigation-link,
-.header-navigation-link:active,
 .header-navigation-link:visited,
+.header-navigation-link:active,
 .header-navigation-link:focus {
-  margin-right: 25px;
   font-size: 18px;
   color: rgb(227, 233, 229);
   text-decoration: none;
@@ -115,25 +115,34 @@ textarea {
   height: 400px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-image: url(../images/main-banner.png);
   border: 3px solid rgb(188, 188, 218, 0.85);
   border-radius: 5px;
 }
 
-.main-banner h2 {
-  font-family: "Dancing Script", cursive;
-  font-size: 40px;
+.main-banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   width: 20%;
-  margin-left: 300px;
-  margin-top: 85px;
+  height: 250px;
+  margin-top: 50px;
+  margin-left: -250px;
+  color: aliceblue;
+}
+.main-banner-h2 {
+  font-size: 30px;
+}
+
+.main-banner-p {
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 25px;
   color: aliceblue;
 }
 
 .main-banner-button {
-  margin-top: 90px;
-  margin-right: 95px;
   padding: 12px;
   font-size: 18px;
   width: 105px;
@@ -254,7 +263,7 @@ textarea {
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 10px;
-  width: 100%;
+  width: 80%;
   height: 500px;
   border: 3px solid rgb(128, 130, 160);
   border-radius: 10px;
@@ -344,6 +353,7 @@ textarea {
 }
 
 .footer-navigation {
+  color: whitesmoke;
   display: flex;
   justify-content: center;
 }
@@ -353,29 +363,36 @@ textarea {
 .footer-nav-link:active,
 .footer-nav-link:focus {
   margin: 0 12px;
-  color: #aaaaaa;
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 /* Contact form */
 
 .contact-body {
-  min-height: 105vh;
+  min-height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: rgb(58, 54, 55);
+  background: rgb(19, 18, 18);
   color: silver;
 }
 .contact-main-area {
   text-align: center;
   margin-bottom: 40px;
 }
+.contact-main-area h2 {
+  margin: 10px auto;
+  color: aliceblue;
+}
 
 .contact-form {
+  margin: 10px auto;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
+  justify-content: space-evenly;
 }
 .form-buttons {
   width: 400px;
@@ -383,7 +400,7 @@ textarea {
   justify-content: flex-start;
 }
 
-.form-buttons .action-button {
+.form-buttons {
   margin-top: 15px;
 }
 
@@ -391,18 +408,20 @@ textarea {
   .d-md-block {
     display: block;
   }
-
+  .main-banner-text {
+    margin-left: 40px;
+  }
   .local-favourite-section {
     height: 2300px;
     background: rgb(237, 243, 238);
     border: 3px solid rgb(188, 188, 218, 0.85);
     border-radius: 10px;
   }
-  .main-banner h2 {
-    margin-left: 40px;
+  .product-section,
+  .product-section1 {
+    width: 100%;
   }
 }
-
 @media screen and (min-width: 768px) {
   .d-md-block {
     display: block;
@@ -417,6 +436,12 @@ textarea {
     background: rgb(158, 231, 176);
     border: 3px solid rgb(188, 188, 218, 0.85);
     border-radius: 10px;
+  }
+  .about-us-section {
+    margin-top: 5px;
+    width: 100%;
+    padding: 85px;
+    height: 590px;
   }
 }
 
