@@ -86,14 +86,15 @@ textarea {
 }
 
 .header-navigation {
-  flex-basis: 90%;
+  flex-basis: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: flex-end;
 }
 
 .header-navigation-link {
-  margin-top: 5px;
-  width: 130px;
+  margin: 5px;
+  width: 90px;
   font-style: Bold;
   color: aliceblue;
 }
@@ -117,6 +118,7 @@ textarea {
   flex-direction: row;
   justify-content: space-evenly;
   background-image: url(../images/main-banner.png);
+  background-size: cover;
   border: 3px solid rgb(188, 188, 218, 0.85);
   border-radius: 5px;
 }
