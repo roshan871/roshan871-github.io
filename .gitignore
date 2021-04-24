@@ -1,2 +1,5 @@
-.DS-store
-account.js
+
+/account.js
+node-modules/
+*.orig
+.DS_Store
