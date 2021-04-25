@@ -138,7 +138,7 @@ textarea {
   justify-content: flex-start;
   width: 20%;
   height: 250px;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: 10px;
   color: aliceblue;
 }
@@ -158,7 +158,7 @@ textarea {
   margin-right: 10px;
   margin-top: 10px;
   padding: 12px;
-  font-size: 18px;
+  font-size: 15px;
   width: 130px;
   height: 50px;
   background: goldenrod;
@@ -167,8 +167,7 @@ textarea {
   border: none;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  font-variant: small-caps;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   border: none;
 }
 
@@ -188,10 +187,9 @@ textarea {
   margin-top: 5px;
   padding: 25px;
   height: 800px;
-  color:black;
+  color: black;
   border: 1px solid rgb(128, 130, 160, 0.8);
   border-radius: 5px;
-}
 }
 
 .local-favourite-title {
@@ -279,7 +277,7 @@ textarea {
 
 .about-us-link {
   margin-top: 5px;
-  color: red;
+  color: rgb(165, 50, 50);
   margin-left: 125px;
 }
 /*Product Section*/
@@ -292,14 +290,8 @@ textarea {
   height: 550px;
   display: flex;
   flex-direction: column;
-  border: 3px solid rgb(128, 130, 160);
+  border: 1px solid rgb(128, 130, 160);
   border-radius: 10px;
-}
-
-.product-section-heading {
-  margin-top: 10px;
-  margin-left: 45px;
-  color: black;
 }
 
 .product-container {
@@ -393,6 +385,9 @@ textarea {
   display: flex;
   justify-content: center;
 }
+.copy-right {
+  color: aliceblue;
+}
 
 .footer-nav-link,
 .footer-nav-link:visited,
@@ -447,10 +442,15 @@ textarea {
     height: 1300px;
   }
 }
+@media screen and (max-width: 800px) {
+  .local-favourite-section {
+    height: 700px;
+}
+
 
 @media screen and (max-width: 912px) {
   .local-favourite-section {
-    height: 1200px;
+    height: 2400px;
   }
 
   .about-us-section {
@@ -471,8 +471,7 @@ textarea {
     width: 50%;
     align-items: center;
   }
-  .main-banner-h2{
-    margin-left: -50px;
+  .main-banner-h2 {
   }
   .main-banner-button {
     margin-bottom: 120px;
@@ -536,16 +535,20 @@ textarea {
   .main-banner-text {
     justify-content: space-evenly;
     width: 60%;
-    margin-left: 70px;
+    margin-left: 25px;
   }
-  .main-banner-p{
-    margin-left: -25px;
+  .main-banner-h2 {
+    margin-left: -20px;
   }
+  .main-banner-p {
+    margin-left: -15px;
+  }
+
   .main-banner-button {
     margin-bottom: 60px;
   }
   .local-favourite-section {
-    height: 2400px;
+    height: 2430px;
   }
   .local-favourite {
     margin-right: 6px;
@@ -560,7 +563,7 @@ textarea {
     height: 950px;
   }
   .about-us-container {
-    margin-right: 20px;
+    margin-right: 5px;
     height: 900px;
     display: flex;
     align-items: center;
@@ -568,14 +571,32 @@ textarea {
     justify-content: flex-start;
   }
   .about-us {
-    padding-top: 20px;
+    padding-top: 5px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+  .about-us-text {
+    margin-right: 65px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+
+  }
+  .about-us-img{
+    width: 80px;
+    
+
   }
   .about-us-heading {
-    padding: 5px 0px;
+    width: 50%;
+    font-size: 18px;
+    margin-right: 80px;
+    padding:0px;
   }
   .aboout-us-p {
     margin-left: 29px;
