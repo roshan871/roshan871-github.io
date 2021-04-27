@@ -1,4 +1,4 @@
-# Project 1
+# Doordash
 
 Online food delivery website DoorDash.
 
@@ -8,20 +8,28 @@ Desription:
 
 - This is online food delivery website where people can order different types of food online and get delivered according to the customer needs.
 
-- Hosting link (https://github.com/roshan871/roshan871.github.io.git)
-
 - Wireframes :
   1)/wireframes/wireframe Dv.png
   2)/wireframes/wireframe Mv.png
-- User story:
+- User stories:
 
 ```
 AS A CUSTOMER
 I WANT TO access a list of foods
 SO THAT I can meet customers expectation.
-```
 
-- Credits if you took a significant chunk of code or structure from someone else
+
+AS A MANAGER
+I WANT TO recieve online order of different types of food
+SO THAT WE can deliver foods to the customer on time.
+
+
+AS A CUSTOMER
+I WANT TO  order food online through this website
+SO THAT i dont need to wait for long time in the resturant.
+
+
+```
 
 Now comes an ordered list
 

@@ -83,7 +83,7 @@ textarea {
   min-width: 20px;
   margin-left: 45px;
   margin-top: 10px;
-  color: aliceblue;
+  color: goldenrod;
 }
 
 .header-navigation {
@@ -471,8 +471,7 @@ textarea {
     width: 50%;
     align-items: center;
   }
-  .main-banner-h2 {
-  }
+  
   .main-banner-button {
     margin-bottom: 120px;
     margin-left: 5px;
