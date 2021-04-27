@@ -438,22 +438,22 @@ textarea {
   margin-top: 15px;
 }
 @media screen and (max-width: 1109px) {
-  .local-favourite-section {
+.local-favourite-section {
     height: 1300px;
   }
 }
 @media screen and (max-width: 792px) {
-  .local-favourite-section {
+.local-favourite-section {
     height: 700px;
 }
 
 
 @media screen and (max-width: 912px) {
-  .local-favourite-section {
+.local-favourite-section {
     height: 2400px;
   }
 
-  .about-us-section {
+.about-us-section {
     height: 400px;
   }
 }
@@ -461,22 +461,22 @@ textarea {
   .header {
     flex-direction: column;
   }
-  .main-banner {
+.main-banner {
     margin-left: 5px;
     flex-direction: column;
     justify-content: flex-start;
   }
-  .main-banner-text {
+.main-banner-text {
     margin-left: 0px;
     width: 50%;
     align-items: center;
   }
   
-  .main-banner-button {
+.main-banner-button {
     margin-bottom: 120px;
     margin-left: 5px;
   }
-  .local-favourite-section {
+.local-favourite-section {
     height: 2400px;
     display: flex;
     flex-direction: column;

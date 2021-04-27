@@ -15,8 +15,8 @@ Desription:
 
 ```
 AS A CUSTOMER
-I WANT TO access a list of foods
-SO THAT I can meet customers expectation.
+I WANT TO order a list of foods
+SO THAT I can share with my family.
 
 
 AS A MANAGER
