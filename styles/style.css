@@ -442,7 +442,7 @@ textarea {
     height: 1300px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 792px) {
   .local-favourite-section {
     height: 700px;
 }
