@@ -65,7 +65,7 @@ textarea {
   box-shadow: 4px 4px 4px rgba(241, 186, 47, 0.85);
 }
 
-/*Header section */
+/*Header section 
 
 .header {
   display: flex;
@@ -77,15 +77,6 @@ textarea {
   border: 1px solid rgb(188, 188, 218, 0.1);
   border-radius: 7px;
 }
-
-.logo {
-  flex-basis: 50px;
-  min-width: 20px;
-  margin-left: 45px;
-  margin-top: 10px;
-  color: goldenrod;
-}
-
 .header-navigation {
   min-width: 200px;
   flex-basis: 100%;
@@ -110,6 +101,15 @@ textarea {
   color: aliceblue;
   text-decoration: none;
 }
+*/
+.navbar{
+  
+  background-color: rgb(51, 32, 32);
+  border: 1px solid rgb(188, 188, 218, 0.1);
+}
+
+
+
 
 /*Main Banner section*/
 
