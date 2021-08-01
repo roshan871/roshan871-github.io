@@ -189,6 +189,10 @@ textarea {
   background: #eef3f8;
   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
+.local-favourite-title {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+}
 
 .local-favourite-text {
   padding-top: 5px;
@@ -243,9 +247,8 @@ textarea {
 
 .about-us-title {
   color: black;
-  margin-left: 2px;
-  margin-bottom: 3px;
-  font-weight: bold;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
   text-shadow: rgba(0, 0, 0, 0.5);
 }
 .about-us-img {
@@ -265,6 +268,10 @@ textarea {
 #product {
   margin-left: 3rem;
   background: #eef3f8;
+}
+.product-title {
+  margin-left: 3rem;
+  margin-bottom: 3rem;
 }
 .product-section {
   margin-bottom: 5px;
